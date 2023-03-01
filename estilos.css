@@ -1,0 +1,128 @@
+
+/*Estilo para toda la pagina */
+body {
+	font-family: 'Acme', sans-serif;
+	background-color: #f3f3f3;	
+	font-size: 20px;
+}
+
+/* Estilos para el encabezado */
+header {
+	background-color: #d8532b;		
+	color: #ffffff;
+	font-size: 30px; 
+	font-family: 'Rubik Vinyl', cursive;
+	padding: 45px;
+	text-align: center; 
+}
+nav {
+	display: inline-block;
+	float: right;
+}
+button{
+	background-color: #ffffff6e ;
+    border-bottom: #333;
+	color: white;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 0px;
+    cursor: pointer;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav ul li {
+	display: inline-block;
+	margin-left: 20px;
+}
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+/* Estilo Titulo Informacion personal y Habilidades */
+h2 {
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 30px;
+	text-align: center; 	
+}
+
+/* Estilos para la sección de información personal */
+.perfil {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.perfil img {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	margin-right: 50px;
+}
+.perfil ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-family: 'Neucha', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Walter Turncoat', cursive;
+	font-size: 25px;
+}
+.perfil ul li {
+	margin-bottom: 20px;
+}
+
+/* Estilo titulo Experiencia Laboral */
+h3 {
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 30px;	
+}
+
+/* Estilo Titulos "Nombres de las empresas" */
+h4 {
+	font-size: 35px;
+	color:#ce471e
+} 
+
+/* Estilos para la sección de experiencia */
+#experiencia ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#experiencia ul li {
+	margin-bottom: 20px;
+}
+#experiencia ul li h4 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+#experiencia ul li p {
+	margin-bottom: 10px;
+}
+
+/* Estilos para la sección de habilidades */
+#habilidades ul {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+#habilidades ul li {
+	background-color: #333;
+	color: #d8532b;
+	font-family: 'Tilt Prism', cursive;
+	font-size: 18px;
+	padding: 10px 20px;
+	border-radius: 10px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
